@@ -1,11 +1,9 @@
 .nav-container{
-    width: 100vw;
-    position: fixed;
-    display: flex;
-
     justify-content: center;
-
-    z-index: 100;
+    
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
 }
 
 .link-container{
