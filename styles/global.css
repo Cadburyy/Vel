@@ -8,6 +8,9 @@ body {
     height: 300vh;
     background-color: var(--primary-color);
     color: #fdaa48;
+    font-family: 'Poppins';
+    font-size: 22px;
+    overflow-x: hidden
 }
 
 html{
@@ -35,5 +38,7 @@ footer{
 .dark-theme{
     --primary-color:#014d4e;
     --secondary-color:#014d4e;
+    background-color: #2c2c2c;
+    color: #f2f2f2;
 }
 
