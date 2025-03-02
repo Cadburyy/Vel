@@ -12,29 +12,10 @@
     <link rel="stylesheet" href="styles/nav.css">
     <link rel="stylesheet" href="styles/quote.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <style>
-        body {
-            font-family: 'Poppins';
-            font-size: 22px;
-            overflow-x: hidden;
-        }
-
-        .dark-theme {
-            background-color: #2c2c2c;
-            color: #f2f2f2;
-        }
-    </style>
     <script src="https://kit.fontawesome.com/4b22bdb5d2.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header class="nav-container">
-        <nav class="link-container">
-            <a class="nav-item" href="#quote">Velvelvelli | vellinrovert</a>
-            <a class="nav-item" href="#gallery">Gallery</a> 
-            <img src="images/moon.png" alt="Theme icon" id="icon">
-        </nav>
-    </header>
 
     <section id="quote" class="quote-container">
         <p class="quote-title">Velli</p>
@@ -42,9 +23,8 @@
         <div class="song-container">
             <div class="music-player">
                 <img name="slides" src="images/vel10.jpeg" class="song-img" alt="">
-                <h1>Velli</h1>
+                <h1>Around</h1>
                 <p>「Niki</p>
-
                 <audio id="song">
                     <source src="sound/around.mp3" type="audio/mp3">
                 </audio>
@@ -66,18 +46,22 @@
 
     <section id="gallery" class="container-gallery">
         <p class="gallery-title">Gallery</p>
-
         <br>
         <div id="image-grid" class="grid"></div>
     </section>
 
-    <footer class="footer-container">
-        <p>Made for @vel</p>
-    </footer>
+    <br>
+    <br>
 
-    </script>
-        <script src="script.js">   
-    </script>
+    <header class="nav-container">
+        <nav class="link-container">
+            <a class="nav-item" href="#quote">Velvelvelli | vellinrovert</a>
+            <a class="nav-item" href="#gallery">Gallery</a> 
+            <img src="images/moon.png" alt="Theme icon" id="icon">
+        </nav>
+    </header>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
